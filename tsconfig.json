@@ -1,11 +1,6 @@
 {
-    "compilerOptions": {
-      "module": "commonjs",
-      "target": "ES2021",
-      "declaration": true,
-      "outDir": "./dist"
-    },
-    "include": [
-      "src/**/*"
-    ]
-  }
+	"extends": "@sindresorhus/tsconfig/tsconfig.json",
+	"compilerOptions": {
+		"outDir": "dist"
+	}
+}
