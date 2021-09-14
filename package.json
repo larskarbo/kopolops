@@ -1,0 +1,15 @@
+{
+  "name": "kopolops",
+  "version": "1.0.0",
+  "main": "index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "bin": "./dist/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cowsay": "^1.5.0"
+  }
+}
