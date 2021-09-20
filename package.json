@@ -1,6 +1,6 @@
 {
   "name": "kopolops",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,8 +12,7 @@
   },
   "bin": "kopolops.js",
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@larskarbo/tsconfig": "^2.0.1",
     "@types/fs-extra": "^9.0.12",
