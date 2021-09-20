@@ -10,13 +10,19 @@
   },
   "bin": "kopolops.js",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "delay": "^5.0.0",
+    "execa": "^5.1.1",
+    "listr": "^0.14.3",
+    "load-json-file": "^7.0.1",
+    "write-json-file": "^5.0.0"
+  },
   "devDependencies": {
     "@larskarbo/tsconfig": "^2.0.1",
     "@types/fs-extra": "^9.0.12",
-    "microbundle": "^0.13.3",
     "cowsay": "^1.5.0",
     "font-ascii": "^1.2.1",
-    "fs-extra": "^10.0.0"
+    "fs-extra": "^10.0.0",
+    "microbundle": "^0.13.3"
   }
 }

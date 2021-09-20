@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
 import go from "./src/index.js"
-console.log('go: ', go);
+console.log('gost: ', go);
 
 go()
