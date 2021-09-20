@@ -1,2 +1,0 @@
-var e=require("font-ascii"),o=require("fs-extra");function r(e){return e&&"object"==typeof e&&"default"in e?e:{default:e}}var t=r(e);!function(){try{console.log(),t.default("KOPOLOPS",{typeface:"PatorjkCheese"}),Promise.resolve(o.pathExists(".kopolops")).then(function(e){if(!e)throw new Error("KOPOLOPS folder not found");console.log("lets go")})}catch(e){return Promise.reject(e)}}(),console.log("horse");
-//# sourceMappingURL=index.cjs.map
