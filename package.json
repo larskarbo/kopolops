@@ -2,12 +2,10 @@
   "name": "kopolops",
   "version": "1.0.7",
   "type": "module",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "source": "src/index.ts",
+  "main": "src/index.js",
   "scripts": {
     "kopolops": "./kopolops.js",
-    "build": "microbundle",
+    "build": "",
     "watch": "microbundle --watch"
   },
   "bin": "kopolops.js",
