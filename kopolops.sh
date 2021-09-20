@@ -1,3 +1,1 @@
-#!/bin/bash
-
-node dist/index.cjs
+node ./dist/index.cjs
