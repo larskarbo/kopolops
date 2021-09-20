@@ -6,7 +6,7 @@ import formPhrase from 'font-ascii';
 
 const letsGo = async () => {
   console.log()
-  formPhrase('KOPOLOPS')
+  formPhrase('KOPOLOPS', { typeface: 'PatorjkCheese' })
 };
 
 letsGo();

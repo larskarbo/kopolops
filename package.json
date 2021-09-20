@@ -6,11 +6,11 @@
   "types": "dist/index.d.ts",
   "source": "src/index.ts",
   "scripts": {
-    "kopolops": "./kopolops.sh",
+    "kopolops": "./dist/index.cjs",
     "build": "microbundle",
     "watch": "microbundle --watch"
   },
-  "bin": "kopolops.sh",
+  "bin": "dist/index.cjs",
   "license": "MIT",
   "dependencies": {
     "cowsay": "^1.5.0",
