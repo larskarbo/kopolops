@@ -1,18 +1,23 @@
 {
   "name": "kopolops",
   "version": "1.0.1",
-  "main": "index.js",
+  "type": "module",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "source": "src/index.ts",
   "scripts": {
-    "build": "tsc",
-    "watch": "tsc --watch"
+    "kopolops": "./kopolops.sh",
+    "build": "microbundle",
+    "watch": "microbundle --watch"
   },
-  "bin": "./dist/index.js",
+  "bin": "kopolops.sh",
   "license": "MIT",
   "dependencies": {
-    "cowsay": "^1.5.0"
+    "cowsay": "^1.5.0",
+    "font-ascii": "^1.2.1"
   },
   "devDependencies": {
-    "@sindresorhus/tsconfig": "^2.0.0"
+    "@larskarbo/tsconfig": "^2.0.1",
+    "microbundle": "^0.13.3"
   }
 }

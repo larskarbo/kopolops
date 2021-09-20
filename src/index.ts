@@ -1,11 +1,13 @@
+#!/usr/bin/env node
+
 import { say } from "cowsay";
+import formPhrase from 'font-ascii';
+ 
 
 const letsGo = async () => {
-  say({
-    text: "Hello, World!",
-    e: "oO",
-    T: "U ",
-  });
+  console.log()
+  formPhrase('KOPOLOPS')
 };
 
 letsGo();
+console.log("horse")
