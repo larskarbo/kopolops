@@ -16,7 +16,6 @@ const cowError = (sayThis) => {
 };
 
 const go = async () => {
-  console.log();
   formPhrase.default("KOPOLOPS", { typeface: "PatorjkCheese" });
 
   if (!(await pathExists("./.kopolops"))) {
