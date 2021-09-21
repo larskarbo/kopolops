@@ -5,8 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "kopolops": "./kopolops.js",
-    "build": "",
-    "watch": "microbundle --watch"
+    "build": "echo 🍏 no build step, enjoy!"
   },
   "bin": "kopolops.js",
   "license": "MIT",
