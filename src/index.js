@@ -19,7 +19,7 @@ const go = async () => {
   formPhrase.default("KOPOLOPS", { typeface: "PatorjkCheese" });
 
   if (!(await pathExists("./.kopolops"))) {
-    cowError("KOPOLOPS folder not found");
+    cowError(".kopolops indicator file not found");
   }
 
   const tasks = new Listr([
